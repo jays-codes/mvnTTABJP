@@ -35,8 +35,9 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-math3</artifactId>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>randomNumberGen3-initial</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
